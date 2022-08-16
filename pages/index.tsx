@@ -37,10 +37,16 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          {makeCard({title: 'core-api swagger', description: 'core-api swagger', link: '/monitoring'})}
-          {makeCard({title: 'core-api swagger', description: 'core-api swagger', link: '/monitoring'})}
-          {makeCard({title: 'core-api swagger', description: 'core-api swagger', link: '/monitoring'})}
-          {makeCard({title: 'core-api swagger', description: 'core-api swagger', link: '/monitoring'})}
+          {makeCard({title: 'core-api swagger', description: '', link: 'http://dingo.dev.superb-ai.com/core-api/docs/'})}
+          {makeCard({title: 'query-api swagger', description: '', link: 'http://dingo.dev.superb-ai.com/query-api/docs/'})}
+          {makeCard({title: 'shiba-api swagger', description: '', link: 'http://shiba.dev.superb-ai.com/docs/'})}
+          {makeCard({title: 'prometheus', description: '', link: 'http://monitoring.dev.superb-ai.com/prometheus'})}
+          {makeCard({title: 'alert manager', description: '', link: 'http://monitoring.dev.superb-ai.com/alertmanager'})}
+          {makeCard({title: 'kafka-ui', description: '', link: 'http://monitoring.dev.superb-ai.com/kafkaui'})}
+          {makeCard({title: 'kibana', description: '', link: 'http://monitoring.dev.superb-ai.com/kibana'})}
+          {makeCard({title: 'grafana', description: '', link: 'http://monitoring.dev.superb-ai.com/grafana'})}
+          {makeCard({title: 'cmak', description: '', link: 'http://monitoring.dev.superb-ai.com/cmak'})}
+          {makeCard({title: 'cloudbeaver', description: '', link: 'http://monitoring.dev.superb-ai.com/cloudbeaver'})}
         </div>
       </main>
     </div>
